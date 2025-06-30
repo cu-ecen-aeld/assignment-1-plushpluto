@@ -1,0 +1,660 @@
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:23:test_validate_my_username:FAIL: AESD students, please fix me!
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+Unit test failed
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/49YgmT2lMJ4wiPhlVm0smFAJJrdCyWjK/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:23:test_validate_my_username:FAIL: AESD students, please fix me!
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+Unit test failed
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/9cxWT5MPjiDgcT0F4cidHWMGP50MpRDR/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:23:test_validate_my_username:FAIL: AESD students, please fix me!
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+Unit test failed
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/tKjeCWoR25MiDqhJNgmeNag5eJPW2Uy3/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:23:test_validate_my_username:FAIL: AESD students, please fix me!
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+Unit test failed
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/3TSnBDw8NMWpuKIMJtkvdKaUZkMqeXDb/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:23:test_validate_my_username:FAIL: AESD students, please fix me!
+
+-----------------------
+1 Tests 1 Failures 0 Ignored 
+FAIL
+Unit test failed
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/jk697Chlnc1Y7sxIflvma0xLbMlmCw9e/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user rangarb
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at assignment-autotest/Unity/src/CMakeLists.txt:11 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Generating ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rangarb/msee/assignment-1-plushpluto/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/student-test/assignment1/Test_validate_username_Runner.c, /home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read plushpluto from conf/username.txt
+/home/rangarb/msee/assignment-1-plushpluto/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+~/msee/assignment-1-plushpluto/finder-app ~/msee/assignment-1-plushpluto/assignment-autotest/test/assignment1 ~/msee/assignment-1-plushpluto
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Error: Two arguments required - writefile and writestr
+Usage: ./writer.sh <writefile> <writestr>
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+File /tmp/aeld-data/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto1.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto2.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto3.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto4.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto5.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto6.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto7.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto8.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto9.txt created successfully with content: AELD_IS_FUN
+File /tmp/aeld-data/7eKzebcCvpyMDK4wEU4qsAX5kXkaBMNr/plushpluto10.txt created successfully with content: AELD_IS_FUN
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success

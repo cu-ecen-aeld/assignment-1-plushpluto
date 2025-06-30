@@ -19,6 +19,7 @@ void test_validate_my_username()
      * config file and my_username() functions are setup properly
      */
     //Badri - Added TEST_ASSERT_EQUAL_STRING_MESSAGE statement to verify if my_username is set as my GitHub name
-    TEST_ASSERT_EQUAL_STRING_MESSAGE(my_username(), "plushpluto", "");
-    TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
+    // TEST_ASSERT_EQUAL_STRING_MESSAGE(my_username(), "plushpluto", "");
+    // TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
+    TEST_ASSERT_EQUAL_STRING(my_username(), malloc_username_from_conf_file());
 }
