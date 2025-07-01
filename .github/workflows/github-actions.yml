@@ -8,18 +8,11 @@ jobs:
           - uses: actions/checkout@v2
           - name: Checkout submodules
             run : git submodule update --init --recursive
-          - name: Debug environment
+          - name: Clean and run tests
             run: |
-              echo "=== Environment Debug ==="
-              pwd
-              ls -la
-              which bash
-              which ruby
-              which cmake
-              which gcc
-              echo "=== Script permissions ==="
-              ls -la *.sh
-          - name: Run unit test
-            run: |
+              echo "=== Cleaning build directory ==="
+              rm -rf build/
+              echo "=== Setting script permissions ==="
               chmod +x ./full-test.sh ./unit-test.sh ./test.sh
-              bash ./full-test.sh
+              echo "=== Running tests ==="
+              ./full-test.sh
