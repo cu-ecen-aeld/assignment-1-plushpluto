@@ -1,5 +1,5 @@
 # aesd-assignments
-## assignment1
+## assignment1-plushpluto-Bash-Scripting-Basics
 
 [![Build Status](https://github.com/cu-ecen-aeld/assignment-1-plushpluto/actions/workflows/github-actions.yml/badge.svg)](https://github.com/cu-ecen-aeld/assignment-1-plushpluto/actions/workflows/github-actions.yml)
 
